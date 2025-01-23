@@ -2,7 +2,9 @@ package PracticeTest;
 
 import org.testng.annotations.Test;
 
-public class CreateContactTest {
+import com.vtiger.BaseClassUtility.BaseTest;
+
+public class CreateContactTest extends BaseTest {
 	@Test
 	public void createContactTest()
 	{

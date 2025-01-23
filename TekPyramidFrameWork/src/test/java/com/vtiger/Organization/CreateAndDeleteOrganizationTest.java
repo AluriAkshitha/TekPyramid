@@ -15,7 +15,7 @@ import com.vtiger.PageRepository.OrganizationsPage;
 
 public class CreateAndDeleteOrganizationTest extends BaseTest{
 	
-	@Test
+	@Test(groups = "RT")
 	public void createOrg() throws Throwable {
 		
 		//Reading data from excel

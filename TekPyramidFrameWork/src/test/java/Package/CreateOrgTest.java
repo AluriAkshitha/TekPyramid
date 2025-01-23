@@ -2,7 +2,10 @@ package Package;
 
 import org.testng.annotations.Test;
 
-public class CreateOrgTest {
+import com.vtiger.BaseClassUtility.BaseTest;
+
+public class CreateOrgTest extends BaseTest {
+	
 	
 	@Test
 	public void createOrgTest()

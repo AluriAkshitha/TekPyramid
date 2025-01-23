@@ -24,8 +24,8 @@ import com.vtiger.PageRepository.TabSwitch;
 public class CreateContactwithOrganizationTest extends BaseTest {
 	
 	
-	@Test
-	public void CreateContact() throws IOException, Throwable {
+	@Test(groups = "RT")
+	public void CreateContactWithOrg() throws IOException, Throwable {
 		
 		
 		//Reading data from excel

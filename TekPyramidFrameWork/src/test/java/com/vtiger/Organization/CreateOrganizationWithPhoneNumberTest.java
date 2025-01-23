@@ -15,8 +15,8 @@ import com.vtiger.PageRepository.OrganizationsPage;
 
 public class CreateOrganizationWithPhoneNumberTest extends BaseTest{
 	
-	@Test
-	public void createOrgWithIndustries() throws IOException, Throwable
+	@Test(groups = "ST")
+	public void createOrgWithPhone() throws IOException, Throwable
 	{
 		
 	//Reading data from excel

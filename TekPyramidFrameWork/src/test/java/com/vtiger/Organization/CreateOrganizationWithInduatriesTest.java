@@ -16,7 +16,7 @@ import com.vtiger.PageRepository.OrganizationsPage;
 
 public class CreateOrganizationWithInduatriesTest extends BaseTest {
 	
-	@Test
+	@Test(groups = "RT")
 	public void createOrgWithIndustries() throws IOException, Throwable
 	{
 		

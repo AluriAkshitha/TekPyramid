@@ -18,8 +18,8 @@ import com.vtiger.PageRepository.HomePage;
 
 public class CreateContactWithPhoneNumberTest extends BaseTest {
 	
-	@Test
-	public void CreateContact() throws IOException, Throwable {
+	@Test(groups = "ST")
+	public void CreateContactWithPho() throws IOException, Throwable {
 		// Reading data from excel
 		String data = elib.getDataFromExcel("VTIGER", 4, 1) + jlib.getRandomNumber();
 		String phone = elib.getDataFromExcel("VTIGER", 4, 2) + jlib.getRandomNumber();
