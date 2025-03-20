@@ -16,18 +16,4 @@
       </class> <!-- com.vtiger.Organization.CreateOrganizationTest -->
     </classes>
   </test> <!-- Test-1(failed) -->
-  <test thread-count="2" parallel="tests" name="Test-2(failed)">
-    <classes>
-      <class name="com.vtiger.Contact.CreateContactTest">
-        <methods>
-          <include name="CreateContactWithOrg"/>
-          <include name="CreateContactWithPho"/>
-          <include name="Login"/>
-          <include name="CloseTheBrowser"/>
-          <include name="Configuration"/>
-          <include name="SignOut"/>
-        </methods>
-      </class> <!-- com.vtiger.Contact.CreateContactTest -->
-    </classes>
-  </test> <!-- Test-2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

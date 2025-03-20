@@ -29,7 +29,7 @@ public class CreateContactwithOrganizationTest extends BaseTest {
 		
 		
 		//Reading data from excel
-				String data=elib.getDataFromExcel("VTIGER", 1, 1)+jlib.getRandomNumber();
+				String data=elib.getDataFromExcel("VTIGER"+jlib.getRandomNumber(), 1, 1)+jlib.getRandomNumber();
 				
 		    	//Navigating to Organization Module
 				HomePage hp=new HomePage(driver);

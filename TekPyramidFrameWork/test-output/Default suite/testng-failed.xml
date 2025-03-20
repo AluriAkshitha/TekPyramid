@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.Organization.CreateAndDeleteOrganizationTest">
+      <class name="com.vtiger.Contact.CreateContactTest">
         <methods>
+          <include name="CreateContactWithOrg"/>
+          <include name="CreateContactWithPho"/>
           <include name="Login"/>
-          <include name="createOrg"/>
           <include name="CloseTheBrowser"/>
           <include name="Configuration"/>
           <include name="SignOut"/>
         </methods>
-      </class> <!-- com.vtiger.Organization.CreateAndDeleteOrganizationTest -->
+      </class> <!-- com.vtiger.Contact.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,7 +11,7 @@ public class FileUtility {
 	{
 		FileInputStream fis;
 		try {
-			fis = new FileInputStream("C:\\Users\\Kallem Akshitha\\OneDrive\\Desktop\\Selinium\\TekPyramidFrameWork\\src\\test\\resources\\CommonData.Properties");
+			fis = new FileInputStream("C:\\Users\\Kallem Akshitha\\git\\repository\\TekPyramidFrameWork\\src\\test\\resources\\CommonData.Properties");
 			Properties pr=new Properties();
 			
 			pr.load(fis);

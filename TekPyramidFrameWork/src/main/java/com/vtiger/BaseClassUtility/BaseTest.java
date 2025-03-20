@@ -54,6 +54,7 @@ public class BaseTest {
 
 		System.out.println("----launch the browser-----");
 	     String BROWSER = flib.getDataFromProperties("browser");
+	     System.out.println(BROWSER);
 		//String BROWSER = browser;
 //		String BROWSER=System.getProperty("browser");
 		if (BROWSER.equals("chrome")) {
@@ -79,7 +80,9 @@ public class BaseTest {
 	// Login To The Application
 	@BeforeMethod(groups = { "ST", "RT" })
 	public void Login() throws Throwable {
+
 		System.out.println("---login to the application----");
+		
 
 		String URL = flib.getDataFromProperties("url");
 		String USERNAME = flib.getDataFromProperties("username");
@@ -94,7 +97,7 @@ public class BaseTest {
 		System.out.println(URL);
 		System.out.println(USERNAME);
 		System.out.println(PASSWORD);
-
+		
 		LoginPage lp = new LoginPage(driver);
 		lp.LoginToApp(URL, USERNAME, PASSWORD);
 
